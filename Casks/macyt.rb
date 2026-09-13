@@ -8,7 +8,7 @@ cask "macyt" do
   homepage "https://sameerbajaj.com/tools/macyt"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "MacYT.app"
 
