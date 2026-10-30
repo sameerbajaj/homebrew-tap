@@ -1,6 +1,6 @@
 # Sameer Bajaj's Homebrew Tap
 
-Official [Homebrew](https://brew.sh) tap for native macOS software created by [Sameer Bajaj](https://sameerbajaj.com).
+Official [Homebrew](https://brew.sh) tap for native macOS software and developer CLI tools created by [Sameer Bajaj](https://sameerbajaj.com).
 
 Explore all tools, apps, and utilities at [sameerbajaj.com/tools](https://sameerbajaj.com/tools).
 
@@ -12,7 +12,28 @@ Add the tap:
 brew tap sameerbajaj/tap
 ```
 
-Install an application:
+### Install CLI Tools (Formulae)
+
+```bash
+# Install AnkiWeb CLI & MCP Server
+brew install ankiweb-cli
+
+# Install Goodreads CLI & MCP Server
+brew install goodreads-cli
+
+# Install ElevenReader CLI
+brew install elevenreader
+```
+
+Or directly via full tap path:
+
+```bash
+brew install sameerbajaj/tap/ankiweb-cli
+brew install sameerbajaj/tap/goodreads-cli
+brew install sameerbajaj/tap/elevenreader
+```
+
+### Install macOS Applications (Casks)
 
 ```bash
 # Install MacYT
@@ -37,7 +58,15 @@ brew install --cask sameerbajaj/tap/codex-accounts
 brew install --cask sameerbajaj/tap/agy-usage-stats
 ```
 
-## Available Casks
+## Available Formulae (Developer CLI Tools)
+
+| Formula | Description | GitHub Repository | Creator |
+| :--- | :--- | :--- | :--- |
+| **[`ankiweb-cli`](https://sameerbajaj.com/tools)** | Terminal-native AnkiWeb CLI and MCP server for flashcard creation, study, and triage | [sameerbajaj/ankiweb-cli](https://github.com/sameerbajaj/ankiweb-cli) | [Sameer Bajaj](https://sameerbajaj.com) |
+| **[`goodreads-cli`](https://sameerbajaj.com/tools)** | Terminal-native Goodreads CLI and MCP server for book search, metadata enrichment, and shelf write-back | [sameerbajaj/goodreads-cli](https://github.com/sameerbajaj/goodreads-cli) | [Sameer Bajaj](https://sameerbajaj.com) |
+| **[`elevenreader`](https://sameerbajaj.com/tools)** | Fast, lightweight CLI for ElevenReader library CRUD operations, markdown reading, and collections | [sameerbajaj/elevenreader](https://github.com/sameerbajaj/elevenreader) | [Sameer Bajaj](https://sameerbajaj.com) |
+
+## Available Casks (macOS GUI Applications)
 
 | Cask | Description | Canonical Tool Page | Creator |
 | :--- | :--- | :--- | :--- |
