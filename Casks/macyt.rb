@@ -1,6 +1,6 @@
 cask "macyt" do
-  version "1.0.27"
-  sha256 "5eb227c7f8082007810d6e63b8606610a1acdf9b0c10c593a78c7bf2f8c99b8c"
+  version "1.0.28"
+  sha256 "92e4ed864cd320fc491817bb058a5c2fef19e71745bf8c9279fb9362a297e254"
 
   url "https://github.com/sameerbajaj/MacYT/releases/download/latest/MacYT-latest.dmg"
   name "MacYT"
