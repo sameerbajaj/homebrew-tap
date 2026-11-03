@@ -1,6 +1,6 @@
 class GoodreadsCli < Formula
-  desc "Goodreads CLI for book search, metadata enrichment, and authenticated shelf write-back"
-  homepage "https://sameerbajaj.com"
+  desc "Book search, metadata enrichment, and authenticated shelf write-back"
+  homepage "https://sameerbajaj.com/tools/goodreads-cli/"
   url "https://github.com/sameerbajaj/goodreads-cli/archive/refs/tags/v0.1.3.tar.gz"
   sha256 "b765041a40ad40ab239142100a0da4ae83a45a02d08c0e6ef53fdd8d95ee27c2"
   license "Apache-2.0"

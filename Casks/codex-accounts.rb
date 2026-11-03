@@ -1,11 +1,11 @@
 cask "codex-accounts" do
-  version "1.0.90"
-  sha256 "3c923c73988bba8f32e474a328b01525b739da93545e8439a393241f815a288c"
+  version "1.0.91"
+  sha256 "84aeafacfae8cdddd8f6d3b4b030d1886561b6fa842bb02aeba59de39ad38514"
 
   url "https://github.com/sameerbajaj/CodexAccounts/releases/download/latest/CodexAccounts-latest.dmg"
   name "Codex Accounts"
-  desc "Native macOS menu bar app tracking OpenAI Codex CLI usage across multiple accounts"
-  homepage "https://sameerbajaj.com/tools/codex-accounts"
+  desc "Menu bar app tracking OpenAI Codex CLI usage across multiple accounts"
+  homepage "https://sameerbajaj.com/tools/codex-accounts/"
 
   auto_updates true
   depends_on macos: :sonoma

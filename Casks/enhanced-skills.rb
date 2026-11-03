@@ -1,11 +1,11 @@
 cask "enhanced-skills" do
-  version "1.0.76"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  version "1.0.78"
+  sha256 "4164f551dc05a9fecc835216a59a5953084be3fd6d01bb0452a01ae571da1cc3"
 
-  url "https://github.com/sameerbajaj/EnhancedSkills/releases/download/latest/EnhancedSkills.dmg"
+  url "https://github.com/sameerbajaj/EnhancedSkills/releases/download/latest/EnhancedSkills-latest.dmg"
   name "EnhancedSkills"
-  desc "Native macOS skill manager and validator for Claude Code and Codex"
-  homepage "https://sameerbajaj.com/tools/enhanced-skills"
+  desc "Skill manager and validator for Claude Code and Codex"
+  homepage "https://sameerbajaj.com/tools/enhanced-skills/"
 
   auto_updates true
   depends_on macos: :sonoma

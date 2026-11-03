@@ -1,11 +1,11 @@
 cask "agy-usage-stats" do
-  version "1.1.88"
-  sha256 "40719f8910c2297843d0e5c020614e0cdf3046c9d36092021712b1500e6bcec6"
+  version "1.1.90"
+  sha256 "56b049802a6f0e7a97225ea3f61d6fce2ae928d0220a93158db2e7fc6679c84c"
 
   url "https://github.com/sameerbajaj/agy-usage-stats/releases/download/latest/agy-usage-stats-latest.dmg"
   name "agy-usage-stats"
-  desc "Native macOS menu bar app monitoring Google Antigravity quota and cost metrics"
-  homepage "https://sameerbajaj.com"
+  desc "Menu bar app monitoring Google Antigravity quota and cost metrics"
+  homepage "https://sameerbajaj.com/tools/agy-usage-stats/"
 
   auto_updates true
   depends_on macos: :sonoma

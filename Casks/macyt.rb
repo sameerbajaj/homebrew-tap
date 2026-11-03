@@ -1,11 +1,11 @@
 cask "macyt" do
-  version "1.0.28"
-  sha256 "92e4ed864cd320fc491817bb058a5c2fef19e71745bf8c9279fb9362a297e254"
+  version "1.0.29"
+  sha256 "99594eb49d40d2e75cc1d21d062bab8a3c7c6823716dcf230fc5b50ed736ef6a"
 
   url "https://github.com/sameerbajaj/MacYT/releases/download/latest/MacYT-latest.dmg"
   name "MacYT"
-  desc "Native macOS menu bar YouTube video and audio downloader"
-  homepage "https://sameerbajaj.com/tools/macyt"
+  desc "Menu bar YouTube video and audio downloader"
+  homepage "https://sameerbajaj.com/tools/macyt/"
 
   auto_updates true
   depends_on macos: :sonoma
